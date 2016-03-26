@@ -1,0 +1,147 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="style/style.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="test.js"></script>
+<script type="text/javascript" src="jquery-1.11.1.min.js"></script>
+<title>Cabecera y pie fijos</title>
+
+
+<script type="text/javascript">
+    function panel()
+    {
+      var estilo = document.getElementById("panel").className; <!-- Aqui (donde pone capa) pones el nombre de la clase que le des a la caja que quieres que se despliegue -->
+      if (estilo == "hidden")
+      {
+        document.getElementById("panel").className = "show"; <!-- Lo mismo aquí (donde pone capa) y donde pones "show" seria el estilo de la caja desplegada -->
+      }
+      else
+      {
+        document.getElementById("panel").className = "hidden"; <!-- Lo mismo aquí (donde pone capa) y donde pones "hidden" seria el estilo de la caja escondida -->
+      }
+    }
+</script>
+
+	
+	
+</head>
+
+
+<body>
+
+	<div id="cabecera">
+  
+     <table align="left" border="0" width="50">
+    	<tr>
+        	<td width="35" align="left"> <input type=image src="img/menu.png" width="45" height="35" onClick="panel()"></td>
+       	</tr>
+    </table>
+    
+
+   
+    
+
+    
+    
+     <table align="center" border="0" width="50">
+       <tr>
+         <td width="35" align="left"><img src="img/logo2.png" width="270" height="40"></td>
+       </tr>
+     </table>
+	</div><!--FIN DE CABECERA-->
+    
+    
+<div id="contenedor">
+
+<div id="panel" class="hidden">    
+	  <br><br><br><br>
+    <div id="separacion1"></div>
+    <div id="separacion2"></div>
+      <div id="acc"><img src="img/ojo.png" width="20" height="13" /><strong>ACCOUNT</strong></div>
+    <div id="acc"><a href="#">Sing In or Register</a></div>
+      <div id="acc"><em><a href="#">My Shopping Cart ()</a></em></div>
+      <div id="acc"><a href="#">WISHLIST</a></div>
+        <div id="separacion2"></div>
+      <div id="separacion1"></div>
+    <div id="separacion2"></div>
+    <div id="acc"><img src="img/ojo.png" width="20" height="13" /><strong>AYOUNIK STORE</strong></div>
+       <div id="acc"><a href="#">New Arrivals</a></div>
+      <div id="acc"><a href="#">Classics</a></div>
+      <div id="acc"><a href="#">All</a></div>
+        <div id="separacion2"></div>
+      <div id="separacion1"></div>
+    <div id="separacion2"></div>
+    <div id="acc"><img src="img/ojo.png" width="20" height="13" /><strong>PRESS AND BLOG</strong></div>
+       <div id="acc"><a href="#">Gallery</a></div>
+      <div id="acc"><a href="#">Social</a></div>
+      <div id="acc"><a href="#"> More</a></div>
+      
+</div><!---FIN DE PANEL-->
+
+
+
+<div id="contenedor2">
+	
+
+	
+
+        
+<table width="200" border="0" align="center">
+              <tr>
+                <td align="center"><br>
+                <br>
+                <br>
+                <br></td>
+             	
+              </tr>
+            </table>
+<table width="126" border="0" align="center">
+              <tr>
+                <td align="center"><div id="botones">FOLLOW</div></td>
+              </tr>
+            </table>
+
+		
+        
+<br><br>
+<br>
+<br><br>
+    
+    
+    
+</div>  <!---FIN DE CONTENEDO2R-->  
+</div> <!---FIN DE CONTENEDOR-->
+<div id="pie">
+  <table width="900" border="0" align="center">
+    <tr>
+      <td><table width="332" border="0" align="left">
+        <tr>
+          <td width="223">&nbsp;</td>
+          </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td><font color="#FFFFFF">Ayounik Todos los derechos reservados.</font></td>
+        </tr>
+        </table>
+        <table width="250" border="0" align="right">
+          <tr>
+            <td align="right"><a href="#"><img src="img/redes.png" width="95" height="22"></a>
+            </td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td align="right"><font color="#FFFFFF">Desing By: Systems Admins C.A</font></td>
+          </tr>
+      </table></td>
+    </tr>
+  </table>
+</div>
+</body>
+
+</html> 
